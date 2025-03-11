@@ -9,7 +9,7 @@ require 'capybara/rails'
 
 Rails.backtrace_cleaner.remove_silencers!
 
-class IntegrationTest < MiniTest::Spec
+class IntegrationTest < Minitest::Spec
   include Capybara::DSL
 
   register_spec_type(/integration$/, self)
