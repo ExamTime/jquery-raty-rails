@@ -6,6 +6,7 @@ require "rails/test_help"
 require 'minitest/autorun'
 require 'minitest/spec'
 require 'capybara/rails'
+require 'pry'
 
 Rails.backtrace_cleaner.remove_silencers!
 
