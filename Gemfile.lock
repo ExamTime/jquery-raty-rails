@@ -229,7 +229,7 @@ GEM
       tsort
     reline (0.6.3)
       io-console (~> 0.5)
-    rubyzip (0.9.8)
+    rubyzip (3.7.0)
     securerandom (0.4.1)
     selenium-webdriver (2.21.2)
       childprocess (>= 0.2.5)
